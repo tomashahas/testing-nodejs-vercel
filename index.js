@@ -1,7 +1,7 @@
 // index.js
 import express from "express";
 
-export const app = express()
+const app = express()
 const PORT = 4000
 
 app.listen(PORT, () => {
@@ -15,3 +15,5 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.send('This is my about route..... ')
 })
+
+export default app;
