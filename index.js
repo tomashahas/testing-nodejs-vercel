@@ -1,7 +1,7 @@
 // index.js
 import express from "express";
 
-export const app = express();
+const app = express();
 const PORT = 4000;
 
 
@@ -18,4 +18,4 @@ app.get('/about', (req, res) => {
 })
 
 // Export the Express API
-// export default app;
+export default app;
