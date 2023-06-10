@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "module": "nodenext",
   "scripts": {
     "start": "nodemon index.js"
   },
